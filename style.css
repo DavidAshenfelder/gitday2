@@ -1,65 +1,61 @@
 
-
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-li {
-  width: 33%;
+ul li {
   list-style-type: none;
   display: inline-block;
   vertical-align: middle;
-  max-width: 300px;
-  margin: auto;
-}
-
-.octodex img {
-  border: 2px;
-  border-color: silver;
+  max-width: 350px;
   margin: 0;
-  padding: 10px;
-
-
+  padding: 5px
 }
+
 
 .octocat img {
-  display: inline-block;
-  max-width: 300px;
 
-
-}
-
-.author img {
-  display: inline-block;
-  float: right;
-  width: 30%;
+  display: block;
+  max-width: 350px;
+  border: 1px solid #cacaca;
+border-radius: 4px;
+  box-sizing: border-box;
 
 }
 
-.author {
-  display: inline-block;
-  float: right;
-  width: 30%
-}
+.octodex {
 
-.image-footer {
-  display: inline-block;
-  float: right;
-  margin-left: 10px;
-}
-
-.image-number {
-float: left;
 }
 
 .image-caption img {
+
   display: inline-block;
-  width: 30%;
+  width: 10%;
   float: right;
   border: 0px;
-  border-radius: 2px;
+  border-radius: 4px;
   margin: 0;
   padding: 0;
+  position: relative;
+
+
+
+}
+
+
+
+.image-footer{
+
+  border-bottom: 1px solid #cacaca;
+  position: relative;
+  display: block;
+  margin:20px auto 0;
+  clear: both;
+
+}
+
+
+.image-number {
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+
 }

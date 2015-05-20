@@ -32,6 +32,10 @@ li {
 }
 
 .author img {
+  display: inline-block;
+  float: right;
+  width: 30%;
+
 }
 
 .author {
@@ -43,11 +47,11 @@ li {
 .image-footer {
   display: inline-block;
   float: right;
+  margin-left: 10px;
 }
 
 .image-number {
 float: left;
-clear: right;
 }
 
 .image-caption img {
